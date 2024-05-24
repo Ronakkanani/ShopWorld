@@ -15,14 +15,14 @@ function App() {
 
   return (
     <div>
-      <ToastContainer/>
+      <ToastContainer />
       <Header setSearch={setSearch} />
       <Routes>
-        <Route path="/" element={<Home search={ search} />} />
+        <Route path="/" element={<Home search={search} />} />
         <Route path="/:title" element={<Home />} />
         <Route path="/detail/:id" element={<Productdeatiles />} />
-        <Route path="/cart" element={<Cart/>} />
-        <Route path="/checkout" element={<Checkout/>} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/checkout" element={<Checkout />} />
       </Routes>
     </div>
   );

@@ -68,26 +68,26 @@ export default function Productdeatiles() {
                                         <div className='img-slide w-auto'>
                                             <ul id="myTab" role="tablist" >
                                                 <li className="nav-item" role="presentation">
-                                                    <img className='active' id="home-tab" data-bs-toggle="tab" data-bs-target="#home" role="tab" aria-controls="home" aria-selected="true" src={details.images[1]} alt="" loading='lazy' />
+                                                    <img className='active' id="home-tab" data-bs-toggle="tab" data-bs-target="#home" role="tab" aria-controls="home" aria-selected="true" src={details.images} alt="" loading='lazy' />
                                                 </li>
                                                 <li className="nav-item" role="presentation">
-                                                    <img id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" role="tab" aria-controls="profile" aria-selected="false" src={details.images[2]} alt="" loading='lazy' />
+                                                    <img id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" role="tab" aria-controls="profile" aria-selected="false" src={details.images} alt="" loading='lazy' />
                                                 </li>
                                                 <li className="nav-item" role="presentation">
-                                                    <img id="about-tab" data-bs-toggle="tab" data-bs-target="#about" role="tab" aria-controls="about" aria-selected="false" src={details.images[3]} alt="" loading='lazy' />
+                                                    <img id="about-tab" data-bs-toggle="tab" data-bs-target="#about" role="tab" aria-controls="about" aria-selected="false" src={details.images} alt="" loading='lazy' />
                                                 </li>
                                             </ul>
                                         </div>
                                         <div className="main-img w-100 ms-3">
                                             <div class="tab-content" id="myTabContent">
                                                 <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                                    <img src={details.images[1]} alt="" loading='lazy' />
+                                                    <img src={details.images} alt="" loading='lazy' />
                                                 </div>
                                                 <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                                    <img src={details.images[2]} alt="" loading='lazy' />
+                                                    <img src={details.images} alt="" loading='lazy' />
                                                 </div>
                                                 <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab">
-                                                    <img src={details.images[3]} alt="" loading='lazy' />
+                                                    <img src={details.images} alt="" loading='lazy' />
                                                 </div>
                                             </div>
                                         </div>

@@ -11,7 +11,7 @@ export default function Sidenav() {
         // setTimeout(() => {
         axios({
             method: 'get',
-            url: 'https://dummyjson.com/products/categories',
+            url: 'https://dummyjson.com/products/category-list',
         })
         .then(function (response) {
                 // console.log('value', response)
@@ -39,7 +39,6 @@ export default function Sidenav() {
                                     })
                                 }
                             </>
-
                     }
                 </ul>
             </div>

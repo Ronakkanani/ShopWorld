@@ -35,7 +35,7 @@ export default function Productcart({ search }) {
             url = `https://dummyjson.com/products/category/${title}` // spafic catagory
         } else {
             // url = `https://dummyjson.com/products?limit=6&skip=${pagi}` //all catagory
-            url = `https://dummyjson.com/products?limit=100&skip=0`
+            url = `https://dummyjson.com/products?limit=194&skip=0`
         }
         axios({
             method: 'get',
